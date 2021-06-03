@@ -1,23 +1,10 @@
-# IvanGodinez21 | Repositories template
+# Themes for santosfrancisco Spotify Widget
+## Use custom CSS code for amazing themes!
+Now you can customize the santosfrancisco Spotify Widget   
+**Enjoy using these themes, THEY ARE FREE!**
+<p align="center"><img src="./content/images/examples/example.gif"></p>
 
-## Instructions
+Tip: If you don't know how to install a theme go to the [quick tutorial](./content/markdown/tutorial.md) and learn how do it.
 
-Just select this template when you create a new repository or click on [Use this template](https://github.com/IvanGodinez21/Template/generate)
-
-## Contents
-This template contains the following items
-
-### Sponsor
-- GitHub Sponsors
-
-### Actions
-- Sponsors Labels
-
-### Issues templates
-- Bug
-- Enhancement
-- Feature
-
-## Important notes
-- Not   
-- Yet
+## Don't you have the widget yet?
+Go to https://spotify-widget.vercel.app
