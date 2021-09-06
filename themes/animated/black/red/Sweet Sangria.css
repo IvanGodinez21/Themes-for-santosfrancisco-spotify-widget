@@ -1,0 +1,74 @@
+/* Sweet Sangria */
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@300&display=swap");
+.id__SpotifyWidget-sc-33c61j-2 {
+  animation: bar 5s ease-out infinite alternate both;
+  background: rgba(25, 20, 20, 1);
+  border-radius: 15px 15px 15px 15px;
+  border-bottom: 3px solid rgba(161, 29, 51, 1);
+}
+.id__SpotifyWidget-sc-33c61j-2,
+.eUpjul {
+  overflow: hidden;
+}
+.eUpjul {
+  height: 70px;
+  width: 350px;
+  box-shadow: none;
+}
+.eUpjul .widget__metadata-container {
+  width: 300px;
+  height: 70px;
+  left: 72px;
+}
+.eUpjul .widget__artist-name {
+  color: rgba(250, 92, 118, 1);
+  font-family: "Lexend", sans-serif;
+  font-size: 12px;
+  position: absolute;
+  top: 44.5px;
+  text-transform: uppercase;
+}
+.eUpjul .widget__music-name {
+  color: rgba(255, 255, 255, 1);
+  font-family: "Lexend", sans-serif;
+  font-size: 18px;
+  position: absolute;
+  top: 16.2px;
+}
+.eUpjul .widget__cover {
+  animation: cover-spin 20s linear infinite,
+    cover-border 5s ease-out infinite alternate both;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 65px;
+  height: 65px;
+  border: 3px solid rgba(255, 255, 255, 1);
+  border-radius: 50%;
+}
+@keyframes bar {
+  0%,
+  100% {
+    border-bottom: 3px solid rgba(161, 29, 51, 1);
+  }
+  50% {
+    border-bottom: 3px solid rgba(25, 20, 20, 1);
+  }
+}
+@keyframes cover-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes cover-border {
+  0%,
+  100% {
+    border: 3px solid rgba(161, 29, 51, 1);
+  }
+  50% {
+    border: 3px solid rgba(255, 255, 255, 1);
+  }
+}

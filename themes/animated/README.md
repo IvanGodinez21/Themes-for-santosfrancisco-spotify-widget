@@ -1,4 +1,4 @@
 # These folders contains different themes
-All of these themes are animated
+All of these themes are animated, choose from the different predominant background colors.
 
 **More themes are cooming Soon™.**

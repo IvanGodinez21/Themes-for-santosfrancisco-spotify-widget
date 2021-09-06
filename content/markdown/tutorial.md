@@ -11,5 +11,7 @@
 5. Finally paste the new url of the theme as shown in the picture using `@import (url);`
 - You can found all the themes in the folder "themes" of this [GitHub repository.](../../themes)
 
-*Note: Also works for Streamlabs OBS.*
+*Notes:*
+- *Also works for Streamlabs OBS.*
+- *If you want to delete the void borders, change the widget size to 350px by 70px as shown in the image*
 <p align="center"><img src="../images/obs/properties.png"></p>
