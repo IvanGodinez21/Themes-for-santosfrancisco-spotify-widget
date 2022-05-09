@@ -1,40 +1,46 @@
 /* Sweet Sangria */
-@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@300&display=swap");
+/*Font*/
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300&display=swap');
 .id__SpotifyWidget-sc-33c61j-2 {
   animation: bar 5s ease-out infinite alternate both;
   background: rgba(25, 20, 20, 1);
   border-radius: 15px 15px 15px 15px;
   border-bottom: 3px solid rgba(161, 29, 51, 1);
 }
+/*Widget*/
 .id__SpotifyWidget-sc-33c61j-2,
 .eUpjul {
   overflow: hidden;
 }
+/*Widget box*/
 .eUpjul {
   height: 70px;
   width: 350px;
   box-shadow: none;
 }
+/*Info box*/
 .eUpjul .widget__metadata-container {
-  width: 300px;
+  width: 278px;
   height: 70px;
   left: 72px;
 }
-.eUpjul .widget__artist-name {
-  color: rgba(250, 92, 118, 1);
-  font-family: "Lexend", sans-serif;
-  font-size: 12px;
-  position: absolute;
-  top: 44.5px;
-  text-transform: uppercase;
-}
+/*Track name*/
 .eUpjul .widget__music-name {
-  color: rgba(255, 255, 255, 1);
-  font-family: "Lexend", sans-serif;
+  color: rgba(250, 92, 118, 1);
+  font-family: 'Lexend', sans-serif;
   font-size: 18px;
-  position: absolute;
-  top: 16.2px;
+  text-transform: none;
+  top: 17px;
 }
+/*Artist name*/
+.eUpjul .widget__artist-name {
+  color: rgba(255, 255, 255, 1);
+  font-family: 'Lexend', sans-serif;
+  font-size: 12px;
+  text-transform: none;
+  top: 44.5px;
+}
+/*Image cover*/
 .eUpjul .widget__cover {
   animation: cover-spin 20s linear infinite,
     cover-border 5s ease-out infinite alternate both;
@@ -46,6 +52,7 @@
   border: 3px solid rgba(255, 255, 255, 1);
   border-radius: 50%;
 }
+/*Animations*/
 @keyframes bar {
   0%,
   100% {
